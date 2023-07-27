@@ -46,7 +46,9 @@ module.exports = (_, argv) => ({
     new ModuleFederationPlugin({
       name: "mf1",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+        store:"store@http://localhost:8083/remoteEntry.js"
+      },
       exposes: {
         "./Increment":"./src/components/Increment"
       },
