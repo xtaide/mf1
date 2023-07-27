@@ -1,0 +1,10 @@
+.increment {
+    width: 100%;
+    background: #75c275;
+    color:white;
+    padding:1em;
+    border-radius: 1em;
+    cursor:pointer;
+    border:none;
+    margin: 1em 0;
+}
